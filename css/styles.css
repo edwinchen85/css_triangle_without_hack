@@ -1,0 +1,12 @@
+div {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: teal;
+  margin: 50px;
+}
+
+#triangle {
+  /* The points are: center top, left bottom, right bottom. */
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
